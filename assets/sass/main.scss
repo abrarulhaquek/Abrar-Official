@@ -1,0 +1,236 @@
+@import "./resets";
+@import "./responsive";
+@import "./animation";
+@import "./variable";
+
+//  .navbar-toggler-icon {
+//   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+// }
+
+// .navbar-toggler {
+//   border-color: rgb(255,102,203);
+// } 
+
+.themebtn {
+  border: none !important;
+  background-color: transparent;
+}
+
+.topic {
+  font-weight: 600;
+  font-size: 27px;
+  border-bottom: 2px solid $primaryBlue;
+  border-radius: 16px;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 31px;
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+.btn {
+  // border: 2px solid $primaryBlue !important;
+  border-radius: 13px !important;
+  padding: 10px 10px 10px 10px !important;
+  width: 145px;
+  font-weight: 700 !important;
+}
+
+.btn:hover {
+  box-shadow: 0px 1px 19px 2px #88a0e5;
+}
+
+.fab,
+.fas {
+  color: black;
+  padding: 10px;
+  font-size: 27px;
+}
+
+/* scroll-bar */
+::-webkit-scrollbar {
+  width: 10px;
+  display: none;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #dbdbdb;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: grey;
+}
+
+//////////////////////////header section///////////////////
+
+.Header_section {
+  text-align: center;
+  background: linear-gradient(246deg, #ffdef2, #e6f0ff);
+
+
+  .navbar {
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+
+    .NavLogo {
+      height: 50px;
+    }
+
+    .nav-link {
+      font-weight: 600;
+      font-size: 20px;
+    }
+
+    .nav-link:hover {
+      border-bottom: 2px solid $primaryBlue;
+    }
+
+    // red and blue theme button 
+    .BlueOption, .RedOption {
+      height: 35px;
+      width: 35px;
+      border: 2px solid rgb(218, 218, 218);
+      border-radius: 50%;
+      margin-bottom: 0px;
+    }
+
+    .BlueOption {
+      background: linear-gradient(45deg, $primaryBlue, $SecondaryBlue);
+    }
+
+    .RedOption {
+      background: linear-gradient(45deg, $primaryRed, $secondaryRed);
+    }
+
+  }
+
+  .header_name {
+    padding-top: 90px;
+    padding-bottom: 30px;
+  }
+
+  .rounded-circle {
+    object-fit: cover;
+  }
+
+  .h_name {
+    font-size: 23px;
+    font-weight: 600;
+  }
+
+}
+
+//////////////////////////// about section //////////////////////////
+.about_section {
+  padding: 25px;
+  border-radius: 19px;
+
+  .abt_detail {
+    font-size: 18px;
+  }
+
+  .abt_list {
+    font-size: 18px;
+  }
+
+  .li_top {
+    font-weight: 600;
+  }
+
+}
+
+/////////////////////////////////adademic section//////////////////////
+.edu_detail {
+  font-size: 18px;
+  padding: 25px;
+  border-radius: 19px;
+}
+
+.edu_dtop {
+  font-weight: 600;
+}
+
+///////////////////////skills/////////////////////////////////////////
+.skills {
+  padding: 25px;
+  height: 190px;
+  border-radius: 19px;
+  overflow-x: hidden;
+  display: flex;
+}
+
+.imagess {
+  height: 100px;
+  width: 100px;
+}
+
+.skill_gap {
+  width: 150px !important;
+}
+
+.skills_logo {
+  padding: 11px;
+  margin-bottom: 35px;
+  border-radius: 19px;
+  border: 2px solid $primaryBlue;
+}
+
+/* ///////////////////////////////////////// work experiance////////////////////////////// */
+.work_experience {
+  font-size: 18px;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 19px;
+
+  .company {
+    width: 300px;
+    text-align: center;
+  }
+
+  .comp_name {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -24px;
+  }
+}
+
+.compa {
+  font-weight: 600;
+}
+
+/* ///////////////////////////////////////contact////////////////////////////////// */
+#contact {
+  background-color: #e0e8ff;
+  padding-top: 4px;
+
+  .topics {
+    font-weight: 600;
+    font-size: 20px;
+    border-bottom: 2px solid #88a0e5;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 31px;
+  }
+
+  .addr {
+    text-align: center;
+  }
+
+  .mail {
+    text-align: center;
+
+    i>span {
+      font-size: 20px;
+      font-weight: 500;
+      margin-left: 11px;
+    }
+  }
+
+  .social {
+    text-align: center;
+  }
+}

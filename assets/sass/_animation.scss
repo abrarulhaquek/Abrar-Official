@@ -1,0 +1,79 @@
+/* image */
+.BlueLogo {
+  animation: BlueLogo 5s ease-in;
+  animation-iteration-count: infinite;
+}
+
+.RedLogo {
+  animation: RedLogo 5s ease-in;
+  animation-iteration-count: infinite;
+}
+
+.PurpleLogo {
+  animation: PurpleLogo 5s ease-in;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes BlueLogo {
+  50% {
+    box-shadow: 0px 1px 35px 4px #3f66d5;
+  }
+}
+@keyframes RedLogo {
+  50% {
+    box-shadow: 0px 1px 35px 4px #fb4653;
+  }
+}
+@keyframes PurpleLogo {
+  50% {
+    box-shadow: 0px 1px 35px 4px #3a2d80;
+  }
+}
+
+
+/* topic  */
+.topic_anime {
+  animation: mov 2s ease;
+}
+
+@keyframes mov {
+  0% {
+    transform: translateY(-20px);
+  }
+}
+
+/* buttons */
+.btn_anime {
+  animation: btn_animation 2s ease-out;
+}
+
+@keyframes btn_animation {
+  0% {
+    transform: translatex(90px);
+  }
+}
+
+/* sections animate */
+.sec_anime {
+  animation: movee 1s;
+}
+
+@keyframes movee {
+  0% {
+    transform: translatex(-90px);
+  }
+}
+
+/* skills */
+
+.skill_anime {
+  animation: skill 2s ease;
+}
+
+@keyframes skill {
+  0% {
+
+    transform: translatey(-90px);
+  }
+}

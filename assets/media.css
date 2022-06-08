@@ -1,0 +1,86 @@
+@media screen and (min-width: 1401px) {
+  html,
+  body {
+    height: 100%;
+  }
+
+  html {
+    display: table;
+    margin: auto;
+  }
+
+  body {
+    display: table-cell;
+    vertical-align: middle;
+    width: 1399px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .skill_gap {
+    margin-left: 15px !important;
+  }
+  .skills{
+    height: 200px;
+    overflow: scroll;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .skill_gap {
+    margin-right: 50px;
+  }
+  .skills{
+    height: 200px;
+    overflow: scroll;
+  }
+}
+
+@media screen and (min-width: 574px) and (max-width: 767px) {
+  .skill_gap {
+    margin-right: 0px;
+  }
+  .skills{
+    height: 200px;
+    overflow: scroll;
+  }
+}
+
+@media screen and (min-width: 550px) and (max-width: 575px) {
+  .skills{
+    height: 200px;
+    overflow: scroll;
+  }
+}
+
+@media screen and (min-width: 479px) and (max-width: 549px) {
+  .skill_gap {
+    margin-left: 40px;
+  }
+  .skills{
+    height: 200px;
+    overflow: scroll;
+  }
+}
+
+@media screen and (min-width: 306px) and (max-width: 478px) {
+  .skills{
+    height: 200px;
+    overflow: scroll;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .imagess{
+    height: 65px;
+    width: 65px;
+  }
+  .skills_logo {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .skills{
+    height: 200px;
+    overflow: scroll;
+  }
+}

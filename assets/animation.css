@@ -1,0 +1,53 @@
+/* image */
+.rounded-circle{
+  animation: img 5s ease-in;
+  animation-iteration-count: infinite;
+}
+@keyframes img{
+  50%{
+    /* box-shadow: 0px 1px 29px 4px #3f66d5; */
+
+  }
+}
+
+/* topic  */
+.topic_anime {
+    animation: mov 2s ease ;
+}
+@keyframes mov{
+    0%{
+      transform: translateY(-20px);
+    }
+  }
+
+  /* buttons */
+  .btn_anime {
+      animation: btn_animation 2s ease-out;
+  }
+  @keyframes btn_animation{
+      0%{
+          transform: translatex(90px);
+      }
+  }
+  /* sections animate */
+  .sec_anime {
+      animation: movee 1s;
+  }
+  @keyframes movee{
+    0%{
+      transform: translatex(-90px);
+    }
+  }
+
+  /* skills */
+  
+  .skill_anime {
+      animation: skill 2s ease;
+  }
+  @keyframes skill{
+    0%{
+
+      transform: translatey(-90px);
+    }
+  }
+ 
