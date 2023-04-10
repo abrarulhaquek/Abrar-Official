@@ -17,11 +17,12 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/a85a8caafa.js" crossorigin="anonymous"></script>
     <title>Abrar Ul Haque</title>
 </head>
 
 <body id="Body">
-
     <!-- ////////////////// hero section\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
     <div class="Header_section" id="hero">
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
@@ -53,8 +54,12 @@
                     </ul>
                     <ul class="navbar-nav ">
                         <li class="nav-item d-flex justify-content-evenly">
-                            <button id="link" class="nav-link active themebtn" onclick="BlueTheme()"><p class="BlueOption"></p></button>
-                            <button id="link" class="nav-link active themebtn" onclick="RedTheme()"><p class="RedOption"></p></button>
+                            <button id="link" class="nav-link active themebtn" onclick="BlueTheme()">
+                                <p class="BlueOption"></p>
+                            </button>
+                            <button id="link" class="nav-link active themebtn" onclick="RedTheme()">
+                                <p class="RedOption"></p>
+                            </button>
                             <!-- <button id="link" class="nav-link active themebtn" onclick="PurpleTheme()">pur</button> -->
                             <!-- <button class="nav-link active themebtn" onclick="ss">df</button> -->
                         </li>
@@ -62,13 +67,12 @@
                 </div>
             </div>
         </nav>
-        <p class="header_name">
+        <div class="header_name">
             <img src="./assets/img/profile.jpg" id="profile" class="rounded-circle BlueLogo" alt="Cinque Terre"
                 width="200px" height="200px">
-        </p>
-        <p class="h_name">Abrar Ul Haque K </p>
-        <p class="job">Frontend Developer</p>
-
+            <h3 class="h_name">Abrar Ul Haque K </h3>
+            <h6 class="job">React Developer</h6>
+        </div>
         <div id="SvgPicBlue">
             <svg preserveAspectRatio="none" viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg"
                 style="fill: #3f66d5; width: 100%; height: 300px; transform: rotate(180deg);">
@@ -81,7 +85,6 @@
                 <path
                     d="M0 0v5.63C149.93 59 314.09 71.32 475.83 42.57c43-7.64 84.23-20.12 127.61-26.46 59-8.63 112.48 12.24 165.56 35.4C827.93 77.22 886 95.24 951.2 90c86.53-7 172.46-45.71 248.8-84.81V0z" />
             </svg>
-
         </div>
         <div style=" display: none;" id="SvgPicRed">
             <svg preserveAspectRatio="none" viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg"
@@ -97,7 +100,6 @@
             </svg>
         </div>
     </div>
-
     <!-- //////////////////////////////////////about me\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
     <div class="container  mt-5" id="About">
         <p class="abt_name topic  mt-5 " data-aos="fade-up">
@@ -105,17 +107,119 @@
         </p>
         <div class="about_section  sec" data-aos="zoom-in">
             <p class="abt_detail">
-                Working as a Front-end Developer in ZYDNI
-                <br>
-                Skilled in HTML, CSS, SCSS, Bootstrap, Javascript, Jquery, React js, Wordpress and Webflow.
-                Started learning PHP and MySql
-                Strong Arts and Layout design professional with a Bachelor of science-BSC focused in computer science.
+                <!-- Working as a React Developer at Zydni Software Solutions with a solid technical foundation and more than
+                1.8 years of experience. -->
+                During my time as a React Developer at Zydni Software Solutions, which has lasted for more than 1.8
+                years, I have had the opportunity to gain a solid technical foundation in software development. This has
+                been made possible by the practical experience I have gained while working on various software
+                development projects at the company. Thanks to this experience, I now possess a strong knowledge base
+                and understanding of the principles and practices of software development, particularly as they relate
+                to React, a popular JavaScript library for building user interfaces. As a result, I am confident that I
+                am well-equipped to make valuable contributions to software development projects going forward, and I
+                look forward to leveraging my technical skills and knowledge to continue making meaningful contributions
+                to the industry.
             </p>
             <ul class="abt_list">
-                <li><span class="li_top">Date Of Birth :</span> 31 AUG 2001</li>
+                <!-- <li><span class="li_top">Date Of Birth :</span> 31 AUG 2001</li> -->
             </ul>
-            <a href="./assets/img/ABRAR UL HAQUE K.pdf" target="_blank"> <button type="button" class="btn">My
+            <a href="./assets/img/Abrar Resume.pdf" target="_blank"> <button type="button"
+                    style="border: 2px solid #0d79ec;" class="btn">My
                     Resume</button></a>
+        </div>
+    </div>
+    <!-- ///////////////////////////////////////////work experience\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+    <div class="container " id="Experience">
+        <p class="work_name topic mt-5 " data-aos="fade-up">
+            Work Experience
+        </p>
+        <div data-aos="zoom-in">
+            <div class="work_experience  sec">
+                <div class="company">
+                    <p class="comp_img"><img src="./assets/img/Logo-Updated.svg" alt=""></p>
+                    <p class="comp_name"> Glider Technologies </p>
+                </div>
+                <p class="com_detail mt-5">
+                    I Completed <span class="compa">5 Month Internship</span> as a Frontend-designer. <br>
+                    Certified as Frontend Developer <br>
+                    Worked on HRMS Project Layout
+                    Designer.</p>
+                <a href="./assets/img/s2kdqi1k_1640852796814.pdf" target="_blank"> <button type="button" class="btn "
+                        style="border: 2px solid #0d79ec;">My
+                        Internship</button></a>
+            </div>
+        </div>
+    </div>
+    <!-- ////////////////////////////////////my skills\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+    <div class="container" id="Skill">
+        <p class="skill_name topic mt-5" data-aos="fade-up">
+            My Skills
+        </p>
+        <div class="skills  sec" data-aos="zoom-in">
+            <div class="row justify-content-evenly">
+                <div class="col-md-2 col-sm-4 skill_gap">
+                    <div class="skills_logo">
+
+                        <i class="fa-brands fa-html5"></i>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4  skill_gap">
+                    <div class="skills_logo">
+
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                </div>
+                <div class="col-md-2  col-sm-4 skill_gap">
+                    <div class="skills_logo">
+                        <i class="fa-brands fa-sass"></i>
+                    </div>
+                </div>
+                <div class="col-md-2  col-sm-4 skill_gap">
+                    <div class="skills_logo">
+                        <i class="fa-brands fa-bootstrap"></i>
+                    </div>
+                </div>
+                <div class="col-md-2  col-sm-4 skill_gap">
+                    <div class="skills_logo">
+                        <img class="imagess " id="mui" src="./assets/img/icons8-material-ui-48.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-2  col-sm-4 skill_gap">
+                    <div class="skills_logo">
+                        <i class="fa-brands fa-figma"></i>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4  skill_gap">
+                    <div class="skills_logo">
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4  skill_gap ">
+                    <div class="skills_logo">
+                        <img class="imagess" id="jq" src="./assets/img/icons8-jquery-50.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4  skill_gap ">
+                    <div class="skills_logo">
+                        <i class="fa-brands fa-react"></i>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4  skill_gap ">
+                    <div class="skills_logo">
+                        <img class="imagess" id="nextjs" src="./assets/img/next-js.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4  skill_gap ">
+                    <div class="skills_logo">
+                        <i class="fa-brands fa-wordpress"></i>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4  skill_gap ">
+                    <div class="skills_logo">
+                        <i class="fa-brands fa-git-alt"></i>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
     <!-- /////////////////////////////Academic//////////////////////////////////////////// -->
@@ -133,101 +237,6 @@
             Secondary School
         </p>
     </div>
-    <!-- ////////////////////////////////////my skills\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
-    <div class="container" id="Skill">
-        <p class="skill_name topic mt-5" data-aos="fade-up">
-            My Skills
-        </p>
-        <div class="skills  sec" data-aos="zoom-in">
-            <div class="row justify-content-evenly">
-                <div class="col-md-2 col-sm-4 skill_gap">
-                    <div class="skills_logo"> <img class="imagess" id="html"
-                            src="./assets/img/kisspng-html-web-design-scalable-vector-graphics-world-wid-html5-icon-hd-5ab0c85c377aa0.0639325615215350682273.png"
-                            alt="">
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-4  skill_gap">
-                    <div class="skills_logo"> <img class="imagess" id="css"
-                            src="./assets/img/kisspng-css3-cascading-style-sheets-logo-html-markup-langu-5adbf15c4512b2.0914928015243636122829.png"
-                            alt="">
-                    </div>
-                </div>
-
-                <div class="col-md-2  col-sm-4 skill_gap">
-                    <div class="skills_logo"> <img class="imagess" id="boot" src="./assets/img/sass-1.svg" alt="">
-                    </div>
-                </div>
-                <div class="col-md-2  col-sm-4 skill_gap">
-                    <div class="skills_logo"> <img class="imagess" id="boot"
-                            src="./assets/img/kisspng-responsive-web-design-bootstrap-sass-cascading-sty-framework-5acb894bc4c191.9841223815232883958059.png"
-                            alt="">
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-4  skill_gap">
-                    <div class="skills_logo"> <img class="imagess" id="js"
-                            src="./assets/img/kisspng-javascript-logo-html-comment-blog-5ae63c23139110.5436874015250381150802.png"
-                            alt="">
-                    </div>
-                </div>
-
-                <div class="col-md-2 col-sm-4  skill_gap ">
-                    <div class="skills_logo"> <img class="imagess" id="jq"
-                            src="./assets/img/kisspng-jquery-web-development-ajax-event-php-ajax-5b111dfdc40565.0540752515278484458029.png"
-                            alt="">
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-4  skill_gap ">
-                    <div class="skills_logo">
-                        <img class="imagess" id="wp" src="./assets/img/react-2.svg" alt="">
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-4  skill_gap ">
-                    <div class="skills_logo">
-                        <img class="imagess" id="wp" src="./assets/img/php-icon.svg" alt="">
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-4  skill_gap ">
-                    <div class="skills_logo">
-                        <img class="imagess" id="wp" src="./assets/img/mysql-official.svg" alt="">
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-4  skill_gap ">
-                    <div class="skills_logo"> <img class="imagess" id="wp"
-                            src="./assets/img/kisspng-wordpress-logo-theme-5aec5a4793a276.1615702515254390476047.png"
-                            alt="">
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-4  skill_gap ">
-                    <div class="skills_logo"> <img class="imagess" id="wp" src="./assets/img/webflow-icon.svg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- ///////////////////////////////////////////work experience\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
-    <div class="container " id="Experience">
-        <p class="work_name topic mt-5 " data-aos="fade-up">
-            Work Experience
-        </p>
-        <div data-aos="zoom-in">
-            <div class="work_experience  sec">
-                <div class="company">
-                    <p class="comp_img"><img src="./assets/img/Logo-Updated.svg" alt=""></p>
-                    <p class="comp_name"> Glider Technologies </p>
-                </div>
-                <p class="com_detail mt-5">
-                    I Completed <span class="compa">5 Month Internship</span> as a Frontend-designer. <br>
-                    Certified as Frontend Developer <br>
-                    Worked on HRMS Project Layout
-                    Designer.</p>
-                <a href="./assets/img/s2kdqi1k_1640852796814.pdf" target="_blank"> <button type="button" class="btn ">My
-                        Internship</button></a>
-            </div>
-        </div>
-    </div>
-
-
     <!-- ///////////////////////////////contact me///////////////////////////////////////////////////////// -->
     <div id="contact">
         <p class="cont_name topic mt-5" data-aos="fade-up">
@@ -242,7 +251,6 @@
                     54/23 ,Madarsa Islamia 3th street , <br>
                     Pernambut -635810 ,<br>
                     India . </p>
-
             </div>
             <div class="col-md-4 col-sm-12">
                 <p class="topics">
@@ -250,7 +258,7 @@
                 </p>
                 <p class="mail">
                     <i class="fas fa-envelope">
-                        <span id="gmail">abrarulhaquek07@gmail.com</span>
+                        <a href="mailto:abrarulhaquek07@gmail.com" id="gmail">abrarulhaquek07@gmail.com</a>
                     </i>
                 </p>
             </div>

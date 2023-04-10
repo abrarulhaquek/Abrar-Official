@@ -9,7 +9,7 @@
 
 // .navbar-toggler {
 //   border-color: rgb(255,102,203);
-// } 
+// }
 
 .themebtn {
   border: none !important;
@@ -29,7 +29,7 @@
 }
 
 .btn {
-  // border: 2px solid $primaryBlue !important;
+  border: 2px solid $primaryBlue;
   border-radius: 13px !important;
   padding: 10px 10px 10px 10px !important;
   width: 145px;
@@ -68,10 +68,14 @@
 //////////////////////////header section///////////////////
 
 .Header_section {
+  height: 100vh;
   text-align: center;
   background: linear-gradient(246deg, #ffdef2, #e6f0ff);
-
-
+  #SvgPicBlue,
+  #SvgPicRed {
+    position: absolute;
+    bottom: 0px;
+  }
   .navbar {
     background-color: transparent;
     backdrop-filter: blur(8px);
@@ -89,8 +93,9 @@
       border-bottom: 2px solid $primaryBlue;
     }
 
-    // red and blue theme button 
-    .BlueOption, .RedOption {
+    // red and blue theme button
+    .BlueOption,
+    .RedOption {
       height: 35px;
       width: 35px;
       border: 2px solid rgb(218, 218, 218);
@@ -105,12 +110,12 @@
     .RedOption {
       background: linear-gradient(45deg, $primaryRed, $secondaryRed);
     }
-
   }
 
   .header_name {
-    padding-top: 90px;
-    padding-bottom: 30px;
+    display: grid;
+    place-content: center;
+    height: 70vh;
   }
 
   .rounded-circle {
@@ -120,8 +125,8 @@
   .h_name {
     font-size: 23px;
     font-weight: 600;
+    margin-top: 20px;
   }
-
 }
 
 //////////////////////////// about section //////////////////////////
@@ -140,7 +145,6 @@
   .li_top {
     font-weight: 600;
   }
-
 }
 
 /////////////////////////////////adademic section//////////////////////
@@ -157,15 +161,17 @@
 ///////////////////////skills/////////////////////////////////////////
 .skills {
   padding: 25px;
-  height: 190px;
   border-radius: 19px;
-  overflow-x: hidden;
+  // height: 190px;
+  // overflow-x: hidden;
   display: flex;
 }
 
 .imagess {
-  height: 100px;
-  width: 100px;
+  height: 90px;
+  width: 90px;
+  margin: auto;
+  display: block;
 }
 
 .skill_gap {
@@ -177,6 +183,12 @@
   margin-bottom: 35px;
   border-radius: 19px;
   border: 2px solid $primaryBlue;
+  i {
+    font-size: 90px;
+    margin: auto;
+    display: block;
+    text-align: center;
+  }
 }
 
 /* ///////////////////////////////////////// work experiance////////////////////////////// */
@@ -206,7 +218,7 @@
 #contact {
   background-color: #e0e8ff;
   padding-top: 4px;
-
+  border-top: 2px solid $primaryBlue;
   .topics {
     font-weight: 600;
     font-size: 20px;
@@ -223,10 +235,11 @@
   .mail {
     text-align: center;
 
-    i>span {
-      font-size: 20px;
-      font-weight: 500;
+    i > a {
+      font-size: 11px;
       margin-left: 11px;
+      text-decoration: none;
+      color: black;
     }
   }
 

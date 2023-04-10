@@ -1,9 +1,9 @@
-// nav togg 
-let clicks = document.getElementById("link").addEventListener(onclick , function() {
+// nav togg
+let clicks = document.getElementById("link").addEventListener(onclick, function () {
   // document.getElementById("navbarSupportedContent").style.display = "none";
-if (clicks == TRUE) {
-  console.log("sssss")
-}
+  if (clicks == TRUE) {
+    console.log("sssss")
+  }
 })
 
 
@@ -13,6 +13,9 @@ function BlueTheme() {
   let body = (document.getElementById("Body").style.backgroundColor = "white");
   // body font
   document.getElementById("Body").style.color = "#17181c";
+  document.getElementById("mui").style.filter = "invert(0)"
+  document.getElementById("jq").style.filter = "invert(0)"
+  document.getElementById("nextjs").style.filter = "invert(0)"
 
   // nav
   const a = document.querySelectorAll(".nav-link");
@@ -54,6 +57,7 @@ function BlueTheme() {
 
   // contaact
   document.getElementById("contact").style.backgroundColor = "#e0e8ff";
+  document.getElementById("contact").style.borderTop = "2px solid #0d79ec";
   document.getElementById("gmail").style.color = "#17181c";
 
   // socail media
@@ -99,7 +103,9 @@ function RedTheme() {
   // document.body.style.scrollbarArrowColor = "#fb4653";
   // document.body.style.scrollbarTrackColor = "#17181c";
   document.getElementById("Body").style.scrollbar;
-
+  document.getElementById("mui").style.filter = "invert(1)"
+  document.getElementById("jq").style.filter = "invert(1)"
+  document.getElementById("nextjs").style.filter = "invert(1)"
   // body bg
   let body = (document.getElementById("Body").style.backgroundColor =
     "#17181c");
@@ -147,6 +153,7 @@ function RedTheme() {
 
   // contaact
   document.getElementById("contact").style.backgroundColor = "#17181c";
+  document.getElementById("contact").style.borderTop = "2px solid #fb4653";
   document.getElementById("gmail").style.color = "white";
 
   // socail media
